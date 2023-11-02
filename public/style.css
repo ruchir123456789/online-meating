@@ -28,7 +28,7 @@ html,body{
     width: 100%;
     height: 100%;
     background-color: rgb(207, 210, 211);
-    /* overflow: hidden; */
+    overflow: hidden; 
     font-family: 'Raleway', sans-serif;
 
 }
