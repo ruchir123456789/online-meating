@@ -119,7 +119,7 @@
 // }
 
 
-
+let participent = ["people","apple"];
 //  let name = "k";
 let name ;
 // let Email;
@@ -131,6 +131,7 @@ do{
     // name = document.querySelector("#fname").value;
     // Email = document.querySelector("#lname").value;
 }while(!name);
+participent.push(name);
 
 
 textarea.addEventListener('keyup',(e)=>{
@@ -173,8 +174,23 @@ socket.on('message',(msg) => {
   appendMessage(msg,'incoming');
   // socket.broadcast.emit('message',msg);
   scrollToBottom();
+participent.push(msg.user);
 })
 
 function scrollToBottom(){
   messageArea.scrollTop = messageArea.scrollHeight;
 }
+
+// participent.forEach(add)
+
+function add(value){
+    // document.querySelector("#numberofpeople").innerHTML = value;
+    // document.querySelector("#numberofpeople1").innerHTML = value;
+    // document.querySelector("#numberofpeople1").innerHTML = `<h4>${value}</h4>`;
+    document.querySelector("#numberofpeople1").innerHTML = participent;
+    // numberofpeople1
+    console.log(participent);
+
+}
+
+add(participent);
