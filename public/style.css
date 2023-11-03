@@ -137,6 +137,13 @@ nav #left i{
     display: none;
 }
 
+#arrowicon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-color: #762e2e;
+}
 #button{
     width: 100vw;
     height: 10vh;
@@ -196,6 +203,21 @@ section.chat_section{
     background-color: #fff;
     box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1),0 4px 6px -2px rgba(0,0,0,0.05);
 }
+/* .chat-section i{ */
+.chat_section i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    /* background-color: #762e2e; */
+    /* background-color: rgb(58, 168, 236); */
+    /* background-color: #f1f1f1; */
+    background-color:#444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 .brand{
    padding: 20px;
    background-color: #f1f1f1;
@@ -217,6 +239,18 @@ section.chat_section{
     overflow-y: auto;
     padding-top: 40px;
 } 
+.message__area i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    /* background-color: #762e2e; */
+    background-color: rgb(58, 168, 236);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 #chatpage textarea{
     width: 100%;
     border: none;
